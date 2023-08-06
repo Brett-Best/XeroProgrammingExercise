@@ -9,4 +9,8 @@
       location = "group:.gitignore"
       assignedFileDataType = "public.plain-text">
    </FileRef>
+   <FileRef
+      location = "group:.swiftlint.yml"
+      assignedFileDataType = "public.yaml">
+   </FileRef>
 </Workspace>
