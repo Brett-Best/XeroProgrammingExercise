@@ -14,6 +14,9 @@
       assignedFileDataType = "public.yaml">
    </FileRef>
    <FileRef
+      location = "group:README.md">
+   </FileRef>
+   <FileRef
       location = "group:XeroProgrammingExercise/XeroProgrammingExercise.xcodeproj">
    </FileRef>
 </Workspace>
