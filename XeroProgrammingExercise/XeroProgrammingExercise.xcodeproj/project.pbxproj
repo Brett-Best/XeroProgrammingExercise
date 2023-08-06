@@ -7,16 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B0A44962A7FF877002D74AF /* InvoiceDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B0A44952A7FF877002D74AF /* InvoiceDetail.swift */; };
 		0B5C09172A7F753E0081FA40 /* XeroProgrammingExerciseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5C09162A7F753E0081FA40 /* XeroProgrammingExerciseApp.swift */; };
-		0B5C09192A7F753E0081FA40 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5C09182A7F753E0081FA40 /* ContentView.swift */; };
+		0B5C09192A7F753E0081FA40 /* InvoiceList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5C09182A7F753E0081FA40 /* InvoiceList.swift */; };
 		0B5C091B2A7F75420081FA40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B5C091A2A7F75420081FA40 /* Assets.xcassets */; };
 		0B5C091E2A7F75420081FA40 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B5C091D2A7F75420081FA40 /* Preview Assets.xcassets */; };
-		0B5C09282A7F75420081FA40 /* XeroProgrammingExerciseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5C09272A7F75420081FA40 /* XeroProgrammingExerciseTests.swift */; };
-		0B5C09322A7F75420081FA40 /* XeroProgrammingExerciseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5C09312A7F75420081FA40 /* XeroProgrammingExerciseUITests.swift */; };
-		0B5C09342A7F75420081FA40 /* XeroProgrammingExerciseUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5C09332A7F75420081FA40 /* XeroProgrammingExerciseUITestsLaunchTests.swift */; };
+		0B5C09282A7F75420081FA40 /* InvoiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5C09272A7F75420081FA40 /* InvoiceTests.swift */; };
+		0B5C09322A7F75420081FA40 /* InvoiceScreensUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5C09312A7F75420081FA40 /* InvoiceScreensUITests.swift */; };
 		0B5C09422A7F75BC0081FA40 /* Tagged in Frameworks */ = {isa = PBXBuildFile; productRef = 0B5C09412A7F75BC0081FA40 /* Tagged */; };
 		0B5C09442A7F75BC0081FA40 /* TaggedMoney in Frameworks */ = {isa = PBXBuildFile; productRef = 0B5C09432A7F75BC0081FA40 /* TaggedMoney */; };
 		0B5C09462A7F75BC0081FA40 /* TaggedTime in Frameworks */ = {isa = PBXBuildFile; productRef = 0B5C09452A7F75BC0081FA40 /* TaggedTime */; };
+		0BEC3F662A7F7CC700F61D85 /* Invoice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEC3F652A7F7CC700F61D85 /* Invoice.swift */; };
+		0BEC3F682A7F7D6000F61D85 /* InvoiceLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEC3F672A7F7D6000F61D85 /* InvoiceLine.swift */; };
+		0BEC3F6B2A7F80A800F61D85 /* InvoiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEC3F6A2A7F80A800F61D85 /* InvoiceManager.swift */; };
+		0BEC3F6D2A7FD5DA00F61D85 /* InvoiceLineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEC3F6C2A7FD5DA00F61D85 /* InvoiceLineTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,16 +41,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B0A44952A7FF877002D74AF /* InvoiceDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InvoiceDetail.swift; sourceTree = "<group>"; };
 		0B5C09132A7F753E0081FA40 /* XeroProgrammingExercise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XeroProgrammingExercise.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B5C09162A7F753E0081FA40 /* XeroProgrammingExerciseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XeroProgrammingExerciseApp.swift; sourceTree = "<group>"; };
-		0B5C09182A7F753E0081FA40 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0B5C09182A7F753E0081FA40 /* InvoiceList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvoiceList.swift; sourceTree = "<group>"; };
 		0B5C091A2A7F75420081FA40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0B5C091D2A7F75420081FA40 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0B5C09232A7F75420081FA40 /* XeroProgrammingExercise Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "XeroProgrammingExercise Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0B5C09272A7F75420081FA40 /* XeroProgrammingExerciseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XeroProgrammingExerciseTests.swift; sourceTree = "<group>"; };
+		0B5C09272A7F75420081FA40 /* InvoiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvoiceTests.swift; sourceTree = "<group>"; };
 		0B5C092D2A7F75420081FA40 /* XeroProgrammingExercise UI Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "XeroProgrammingExercise UI Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0B5C09312A7F75420081FA40 /* XeroProgrammingExerciseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XeroProgrammingExerciseUITests.swift; sourceTree = "<group>"; };
-		0B5C09332A7F75420081FA40 /* XeroProgrammingExerciseUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XeroProgrammingExerciseUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0B5C09312A7F75420081FA40 /* InvoiceScreensUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvoiceScreensUITests.swift; sourceTree = "<group>"; };
+		0BEC3F652A7F7CC700F61D85 /* Invoice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Invoice.swift; sourceTree = "<group>"; };
+		0BEC3F672A7F7D6000F61D85 /* InvoiceLine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InvoiceLine.swift; sourceTree = "<group>"; };
+		0BEC3F6A2A7F80A800F61D85 /* InvoiceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InvoiceManager.swift; sourceTree = "<group>"; };
+		0BEC3F6C2A7FD5DA00F61D85 /* InvoiceLineTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InvoiceLineTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +85,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0B0A44942A7FF81E002D74AF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0B0A44952A7FF877002D74AF /* InvoiceDetail.swift */,
+				0B5C09182A7F753E0081FA40 /* InvoiceList.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		0B5C090A2A7F753E0081FA40 = {
 			isa = PBXGroup;
 			children = (
@@ -100,8 +117,10 @@
 		0B5C09152A7F753E0081FA40 /* XeroProgrammingExercise */ = {
 			isa = PBXGroup;
 			children = (
+				0B0A44942A7FF81E002D74AF /* Views */,
+				0BEC3F692A7F807D00F61D85 /* Managers */,
+				0B5C09522A7F7C610081FA40 /* Models */,
 				0B5C09162A7F753E0081FA40 /* XeroProgrammingExerciseApp.swift */,
-				0B5C09182A7F753E0081FA40 /* ContentView.swift */,
 				0B5C091A2A7F75420081FA40 /* Assets.xcassets */,
 				0B5C091C2A7F75420081FA40 /* Preview Content */,
 			);
@@ -119,7 +138,8 @@
 		0B5C09262A7F75420081FA40 /* XeroProgrammingExercise Tests */ = {
 			isa = PBXGroup;
 			children = (
-				0B5C09272A7F75420081FA40 /* XeroProgrammingExerciseTests.swift */,
+				0B5C09272A7F75420081FA40 /* InvoiceTests.swift */,
+				0BEC3F6C2A7FD5DA00F61D85 /* InvoiceLineTests.swift */,
 			);
 			path = "XeroProgrammingExercise Tests";
 			sourceTree = "<group>";
@@ -127,10 +147,26 @@
 		0B5C09302A7F75420081FA40 /* XeroProgrammingExercise UI Tests */ = {
 			isa = PBXGroup;
 			children = (
-				0B5C09312A7F75420081FA40 /* XeroProgrammingExerciseUITests.swift */,
-				0B5C09332A7F75420081FA40 /* XeroProgrammingExerciseUITestsLaunchTests.swift */,
+				0B5C09312A7F75420081FA40 /* InvoiceScreensUITests.swift */,
 			);
 			path = "XeroProgrammingExercise UI Tests";
+			sourceTree = "<group>";
+		};
+		0B5C09522A7F7C610081FA40 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0BEC3F652A7F7CC700F61D85 /* Invoice.swift */,
+				0BEC3F672A7F7D6000F61D85 /* InvoiceLine.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0BEC3F692A7F807D00F61D85 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				0BEC3F6A2A7F80A800F61D85 /* InvoiceManager.swift */,
+			);
+			path = Managers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,8 +312,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0B5C09192A7F753E0081FA40 /* ContentView.swift in Sources */,
+				0B0A44962A7FF877002D74AF /* InvoiceDetail.swift in Sources */,
+				0B5C09192A7F753E0081FA40 /* InvoiceList.swift in Sources */,
+				0BEC3F682A7F7D6000F61D85 /* InvoiceLine.swift in Sources */,
+				0BEC3F662A7F7CC700F61D85 /* Invoice.swift in Sources */,
 				0B5C09172A7F753E0081FA40 /* XeroProgrammingExerciseApp.swift in Sources */,
+				0BEC3F6B2A7F80A800F61D85 /* InvoiceManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,7 +325,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0B5C09282A7F75420081FA40 /* XeroProgrammingExerciseTests.swift in Sources */,
+				0B5C09282A7F75420081FA40 /* InvoiceTests.swift in Sources */,
+				0BEC3F6D2A7FD5DA00F61D85 /* InvoiceLineTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,8 +334,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0B5C09342A7F75420081FA40 /* XeroProgrammingExerciseUITestsLaunchTests.swift in Sources */,
-				0B5C09322A7F75420081FA40 /* XeroProgrammingExerciseUITests.swift in Sources */,
+				0B5C09322A7F75420081FA40 /* InvoiceScreensUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -378,7 +418,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -435,7 +475,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -512,7 +552,6 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = THD97639S3;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = au.com.brettbest.XeroProgrammingExerciseTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -532,7 +571,6 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = THD97639S3;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = au.com.brettbest.XeroProgrammingExerciseTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";

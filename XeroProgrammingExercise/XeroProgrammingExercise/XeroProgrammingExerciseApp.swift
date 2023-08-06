@@ -9,10 +9,43 @@
 import SwiftUI
 
 @main
-struct XeroProgrammingExerciseApp: App {
-  var body: some Scene {
-    WindowGroup {
-      ContentView()
+enum XeroProgrammingExerciseApp {
+  static func main() throws {
+    guard nil == NSClassFromString("XCTestCase") else {
+      TestApp.main()
+      return
+    }
+
+    App.main()
+  }
+}
+
+extension XeroProgrammingExerciseApp {
+  struct App: SwiftUI.App {
+    @State var invoiceResult: Result<[Invoice], Error>
+
+    var body: some Scene {
+      WindowGroup {
+        InvoiceList(invoiceResult: invoiceResult)
+      }
+    }
+
+    init() {
+      let invoiceManager = InvoiceManager()
+      invoiceManager.executeOperations()
+
+      invoiceResult = Result(catching: { try invoiceManager.getInvoices() })
+    }
+  }
+}
+
+extension XeroProgrammingExerciseApp {
+  struct TestApp: SwiftUI.App {
+    var body: some Scene {
+      WindowGroup {
+        Text("Running unit tests…")
+          .font(.largeTitle)
+      }
     }
   }
 }
