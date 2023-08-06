@@ -1,0 +1,676 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B5C09172A7F753E0081FA40 /* XeroProgrammingExerciseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5C09162A7F753E0081FA40 /* XeroProgrammingExerciseApp.swift */; };
+		0B5C09192A7F753E0081FA40 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5C09182A7F753E0081FA40 /* ContentView.swift */; };
+		0B5C091B2A7F75420081FA40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B5C091A2A7F75420081FA40 /* Assets.xcassets */; };
+		0B5C091E2A7F75420081FA40 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B5C091D2A7F75420081FA40 /* Preview Assets.xcassets */; };
+		0B5C09282A7F75420081FA40 /* XeroProgrammingExerciseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5C09272A7F75420081FA40 /* XeroProgrammingExerciseTests.swift */; };
+		0B5C09322A7F75420081FA40 /* XeroProgrammingExerciseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5C09312A7F75420081FA40 /* XeroProgrammingExerciseUITests.swift */; };
+		0B5C09342A7F75420081FA40 /* XeroProgrammingExerciseUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5C09332A7F75420081FA40 /* XeroProgrammingExerciseUITestsLaunchTests.swift */; };
+		0B5C09422A7F75BC0081FA40 /* Tagged in Frameworks */ = {isa = PBXBuildFile; productRef = 0B5C09412A7F75BC0081FA40 /* Tagged */; };
+		0B5C09442A7F75BC0081FA40 /* TaggedMoney in Frameworks */ = {isa = PBXBuildFile; productRef = 0B5C09432A7F75BC0081FA40 /* TaggedMoney */; };
+		0B5C09462A7F75BC0081FA40 /* TaggedTime in Frameworks */ = {isa = PBXBuildFile; productRef = 0B5C09452A7F75BC0081FA40 /* TaggedTime */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0B5C09242A7F75420081FA40 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0B5C090B2A7F753E0081FA40 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B5C09122A7F753E0081FA40;
+			remoteInfo = XeroProgrammingExercise;
+		};
+		0B5C092E2A7F75420081FA40 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0B5C090B2A7F753E0081FA40 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B5C09122A7F753E0081FA40;
+			remoteInfo = XeroProgrammingExercise;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B5C09132A7F753E0081FA40 /* XeroProgrammingExercise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XeroProgrammingExercise.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B5C09162A7F753E0081FA40 /* XeroProgrammingExerciseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XeroProgrammingExerciseApp.swift; sourceTree = "<group>"; };
+		0B5C09182A7F753E0081FA40 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0B5C091A2A7F75420081FA40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0B5C091D2A7F75420081FA40 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0B5C09232A7F75420081FA40 /* XeroProgrammingExercise Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "XeroProgrammingExercise Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B5C09272A7F75420081FA40 /* XeroProgrammingExerciseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XeroProgrammingExerciseTests.swift; sourceTree = "<group>"; };
+		0B5C092D2A7F75420081FA40 /* XeroProgrammingExercise UI Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "XeroProgrammingExercise UI Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B5C09312A7F75420081FA40 /* XeroProgrammingExerciseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XeroProgrammingExerciseUITests.swift; sourceTree = "<group>"; };
+		0B5C09332A7F75420081FA40 /* XeroProgrammingExerciseUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XeroProgrammingExerciseUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0B5C09102A7F753E0081FA40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B5C09422A7F75BC0081FA40 /* Tagged in Frameworks */,
+				0B5C09442A7F75BC0081FA40 /* TaggedMoney in Frameworks */,
+				0B5C09462A7F75BC0081FA40 /* TaggedTime in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B5C09202A7F75420081FA40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B5C092A2A7F75420081FA40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B5C090A2A7F753E0081FA40 = {
+			isa = PBXGroup;
+			children = (
+				0B5C09152A7F753E0081FA40 /* XeroProgrammingExercise */,
+				0B5C09262A7F75420081FA40 /* XeroProgrammingExercise Tests */,
+				0B5C09302A7F75420081FA40 /* XeroProgrammingExercise UI Tests */,
+				0B5C09142A7F753E0081FA40 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0B5C09142A7F753E0081FA40 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0B5C09132A7F753E0081FA40 /* XeroProgrammingExercise.app */,
+				0B5C09232A7F75420081FA40 /* XeroProgrammingExercise Tests.xctest */,
+				0B5C092D2A7F75420081FA40 /* XeroProgrammingExercise UI Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0B5C09152A7F753E0081FA40 /* XeroProgrammingExercise */ = {
+			isa = PBXGroup;
+			children = (
+				0B5C09162A7F753E0081FA40 /* XeroProgrammingExerciseApp.swift */,
+				0B5C09182A7F753E0081FA40 /* ContentView.swift */,
+				0B5C091A2A7F75420081FA40 /* Assets.xcassets */,
+				0B5C091C2A7F75420081FA40 /* Preview Content */,
+			);
+			path = XeroProgrammingExercise;
+			sourceTree = "<group>";
+		};
+		0B5C091C2A7F75420081FA40 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0B5C091D2A7F75420081FA40 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0B5C09262A7F75420081FA40 /* XeroProgrammingExercise Tests */ = {
+			isa = PBXGroup;
+			children = (
+				0B5C09272A7F75420081FA40 /* XeroProgrammingExerciseTests.swift */,
+			);
+			path = "XeroProgrammingExercise Tests";
+			sourceTree = "<group>";
+		};
+		0B5C09302A7F75420081FA40 /* XeroProgrammingExercise UI Tests */ = {
+			isa = PBXGroup;
+			children = (
+				0B5C09312A7F75420081FA40 /* XeroProgrammingExerciseUITests.swift */,
+				0B5C09332A7F75420081FA40 /* XeroProgrammingExerciseUITestsLaunchTests.swift */,
+			);
+			path = "XeroProgrammingExercise UI Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0B5C09122A7F753E0081FA40 /* XeroProgrammingExercise */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B5C09372A7F75420081FA40 /* Build configuration list for PBXNativeTarget "XeroProgrammingExercise" */;
+			buildPhases = (
+				0B5C090F2A7F753E0081FA40 /* Sources */,
+				0B5C09102A7F753E0081FA40 /* Frameworks */,
+				0B5C09112A7F753E0081FA40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0B5C094B2A7F77020081FA40 /* PBXTargetDependency */,
+			);
+			name = XeroProgrammingExercise;
+			packageProductDependencies = (
+				0B5C09412A7F75BC0081FA40 /* Tagged */,
+				0B5C09432A7F75BC0081FA40 /* TaggedMoney */,
+				0B5C09452A7F75BC0081FA40 /* TaggedTime */,
+			);
+			productName = XeroProgrammingExercise;
+			productReference = 0B5C09132A7F753E0081FA40 /* XeroProgrammingExercise.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0B5C09222A7F75420081FA40 /* XeroProgrammingExercise Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B5C093A2A7F75420081FA40 /* Build configuration list for PBXNativeTarget "XeroProgrammingExercise Tests" */;
+			buildPhases = (
+				0B5C091F2A7F75420081FA40 /* Sources */,
+				0B5C09202A7F75420081FA40 /* Frameworks */,
+				0B5C09212A7F75420081FA40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0B5C094D2A7F77120081FA40 /* PBXTargetDependency */,
+				0B5C09252A7F75420081FA40 /* PBXTargetDependency */,
+			);
+			name = "XeroProgrammingExercise Tests";
+			productName = XeroProgrammingExerciseTests;
+			productReference = 0B5C09232A7F75420081FA40 /* XeroProgrammingExercise Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0B5C092C2A7F75420081FA40 /* XeroProgrammingExercise UI Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B5C093D2A7F75420081FA40 /* Build configuration list for PBXNativeTarget "XeroProgrammingExercise UI Tests" */;
+			buildPhases = (
+				0B5C09292A7F75420081FA40 /* Sources */,
+				0B5C092A2A7F75420081FA40 /* Frameworks */,
+				0B5C092B2A7F75420081FA40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0B5C094F2A7F771C0081FA40 /* PBXTargetDependency */,
+				0B5C092F2A7F75420081FA40 /* PBXTargetDependency */,
+			);
+			name = "XeroProgrammingExercise UI Tests";
+			productName = XeroProgrammingExerciseUITests;
+			productReference = 0B5C092D2A7F75420081FA40 /* XeroProgrammingExercise UI Tests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0B5C090B2A7F753E0081FA40 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				ORGANIZATIONNAME = "Xero Limited";
+				TargetAttributes = {
+					0B5C09122A7F753E0081FA40 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					0B5C09222A7F75420081FA40 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 0B5C09122A7F753E0081FA40;
+					};
+					0B5C092C2A7F75420081FA40 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 0B5C09122A7F753E0081FA40;
+					};
+				};
+			};
+			buildConfigurationList = 0B5C090E2A7F753E0081FA40 /* Build configuration list for PBXProject "XeroProgrammingExercise" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0B5C090A2A7F753E0081FA40;
+			packageReferences = (
+				0B5C09402A7F75BC0081FA40 /* XCRemoteSwiftPackageReference "swift-tagged" */,
+				0B5C09472A7F76EC0081FA40 /* XCRemoteSwiftPackageReference "SwiftLint" */,
+			);
+			productRefGroup = 0B5C09142A7F753E0081FA40 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0B5C09122A7F753E0081FA40 /* XeroProgrammingExercise */,
+				0B5C09222A7F75420081FA40 /* XeroProgrammingExercise Tests */,
+				0B5C092C2A7F75420081FA40 /* XeroProgrammingExercise UI Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0B5C09112A7F753E0081FA40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B5C091E2A7F75420081FA40 /* Preview Assets.xcassets in Resources */,
+				0B5C091B2A7F75420081FA40 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B5C09212A7F75420081FA40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B5C092B2A7F75420081FA40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0B5C090F2A7F753E0081FA40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B5C09192A7F753E0081FA40 /* ContentView.swift in Sources */,
+				0B5C09172A7F753E0081FA40 /* XeroProgrammingExerciseApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B5C091F2A7F75420081FA40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B5C09282A7F75420081FA40 /* XeroProgrammingExerciseTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B5C09292A7F75420081FA40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B5C09342A7F75420081FA40 /* XeroProgrammingExerciseUITestsLaunchTests.swift in Sources */,
+				0B5C09322A7F75420081FA40 /* XeroProgrammingExerciseUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0B5C09252A7F75420081FA40 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0B5C09122A7F753E0081FA40 /* XeroProgrammingExercise */;
+			targetProxy = 0B5C09242A7F75420081FA40 /* PBXContainerItemProxy */;
+		};
+		0B5C092F2A7F75420081FA40 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0B5C09122A7F753E0081FA40 /* XeroProgrammingExercise */;
+			targetProxy = 0B5C092E2A7F75420081FA40 /* PBXContainerItemProxy */;
+		};
+		0B5C094B2A7F77020081FA40 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = 0B5C094A2A7F77020081FA40 /* SwiftLintPlugin */;
+		};
+		0B5C094D2A7F77120081FA40 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = 0B5C094C2A7F77120081FA40 /* SwiftLintPlugin */;
+		};
+		0B5C094F2A7F771C0081FA40 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = 0B5C094E2A7F771C0081FA40 /* SwiftLintPlugin */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0B5C09352A7F75420081FA40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0B5C09362A7F75420081FA40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0B5C09382A7F75420081FA40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"XeroProgrammingExercise/Preview Content\"";
+				DEVELOPMENT_TEAM = THD97639S3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = au.com.brettbest.XeroProgrammingExercise;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0B5C09392A7F75420081FA40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"XeroProgrammingExercise/Preview Content\"";
+				DEVELOPMENT_TEAM = THD97639S3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = au.com.brettbest.XeroProgrammingExercise;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0B5C093B2A7F75420081FA40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = THD97639S3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = au.com.brettbest.XeroProgrammingExerciseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XeroProgrammingExercise.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/XeroProgrammingExercise";
+			};
+			name = Debug;
+		};
+		0B5C093C2A7F75420081FA40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = THD97639S3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = au.com.brettbest.XeroProgrammingExerciseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XeroProgrammingExercise.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/XeroProgrammingExercise";
+			};
+			name = Release;
+		};
+		0B5C093E2A7F75420081FA40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = THD97639S3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = au.com.brettbest.XeroProgrammingExerciseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = XeroProgrammingExercise;
+			};
+			name = Debug;
+		};
+		0B5C093F2A7F75420081FA40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = THD97639S3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = au.com.brettbest.XeroProgrammingExerciseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = XeroProgrammingExercise;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0B5C090E2A7F753E0081FA40 /* Build configuration list for PBXProject "XeroProgrammingExercise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B5C09352A7F75420081FA40 /* Debug */,
+				0B5C09362A7F75420081FA40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B5C09372A7F75420081FA40 /* Build configuration list for PBXNativeTarget "XeroProgrammingExercise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B5C09382A7F75420081FA40 /* Debug */,
+				0B5C09392A7F75420081FA40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B5C093A2A7F75420081FA40 /* Build configuration list for PBXNativeTarget "XeroProgrammingExercise Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B5C093B2A7F75420081FA40 /* Debug */,
+				0B5C093C2A7F75420081FA40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B5C093D2A7F75420081FA40 /* Build configuration list for PBXNativeTarget "XeroProgrammingExercise UI Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B5C093E2A7F75420081FA40 /* Debug */,
+				0B5C093F2A7F75420081FA40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0B5C09402A7F75BC0081FA40 /* XCRemoteSwiftPackageReference "swift-tagged" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "git@github.com:pointfreeco/swift-tagged.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.10.0;
+			};
+		};
+		0B5C09472A7F76EC0081FA40 /* XCRemoteSwiftPackageReference "SwiftLint" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "git@github.com:realm/SwiftLint.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.52.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0B5C09412A7F75BC0081FA40 /* Tagged */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0B5C09402A7F75BC0081FA40 /* XCRemoteSwiftPackageReference "swift-tagged" */;
+			productName = Tagged;
+		};
+		0B5C09432A7F75BC0081FA40 /* TaggedMoney */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0B5C09402A7F75BC0081FA40 /* XCRemoteSwiftPackageReference "swift-tagged" */;
+			productName = TaggedMoney;
+		};
+		0B5C09452A7F75BC0081FA40 /* TaggedTime */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0B5C09402A7F75BC0081FA40 /* XCRemoteSwiftPackageReference "swift-tagged" */;
+			productName = TaggedTime;
+		};
+		0B5C094A2A7F77020081FA40 /* SwiftLintPlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0B5C09472A7F76EC0081FA40 /* XCRemoteSwiftPackageReference "SwiftLint" */;
+			productName = "plugin:SwiftLintPlugin";
+		};
+		0B5C094C2A7F77120081FA40 /* SwiftLintPlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0B5C09472A7F76EC0081FA40 /* XCRemoteSwiftPackageReference "SwiftLint" */;
+			productName = "plugin:SwiftLintPlugin";
+		};
+		0B5C094E2A7F771C0081FA40 /* SwiftLintPlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0B5C09472A7F76EC0081FA40 /* XCRemoteSwiftPackageReference "SwiftLint" */;
+			productName = "plugin:SwiftLintPlugin";
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 0B5C090B2A7F753E0081FA40 /* Project object */;
+}

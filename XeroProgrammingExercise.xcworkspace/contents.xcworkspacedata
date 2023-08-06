@@ -13,4 +13,7 @@
       location = "group:.swiftlint.yml"
       assignedFileDataType = "public.yaml">
    </FileRef>
+   <FileRef
+      location = "group:XeroProgrammingExercise/XeroProgrammingExercise.xcodeproj">
+   </FileRef>
 </Workspace>
