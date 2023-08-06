@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:.gitattributes"
+      assignedFileDataType = "public.plain-text">
+   </FileRef>
+   <FileRef
+      location = "group:.gitignore"
+      assignedFileDataType = "public.plain-text">
+   </FileRef>
+</Workspace>
